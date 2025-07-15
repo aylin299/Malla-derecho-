@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  color: #d63384;
+  text-align: center;
+}
+
+.semestre {
+  background-color: #ffe6f0;
+  border: 2px solid #d63384;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.semestre h2 {
+  color: #c2185b;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+  background-color: #fcdde8;
+}
+
+li.tachado {
+  text-decoration: line-through;
+  color: gray;
+}
